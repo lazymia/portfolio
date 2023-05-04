@@ -1,0 +1,71 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: auto;
+    padding: 0rem 8rem 0rem 8rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    color: black;
+}
+
+#logo{
+    font-size: 50px;
+    line-height: 10px;
+}
+#logo span{
+    font-size: 110px;
+}
+ul.content{
+    display: flex;
+    margin-left: 5rem;
+    line-height: 1.5px;
+}
+.content li{
+    padding: 0rem 1rem 0rem 1rem;
+
+}
+.socials ul{
+    display: flex;
+}
+i.fa-brands{
+  display: inline-block;
+  margin: 0.5rem;
+}
+li{
+ list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* body */
+.hero{
+    display: flex;
+}
+.hero-text{
+    width: 40%;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.hero-image{
+    width: 60%;
+   box-shadow: 5px solid gray;
+}
+.hero-image img{
+    border-radius: 50%;
+
+}
+.circle{
+    position: absolute;
+    right: 250px;
+    background: #FFC300 ;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
